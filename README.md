@@ -1,73 +1,76 @@
-# React + TypeScript + Vite
+# Landing Page Sopa Do Bem
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web desenvolvida como parte do Projeto Final do módulo de Front-End do curso de Análise e Desenvolvimento de Sistemas da Universidade Ceuma.
 
-Currently, two official plugins are available:
+O principal objetivo do projeto é oferecer suporte à Sopa do Bem, uma iniciativa social dedicada a ajudar e resgatar a dignidade de pessoas em situação de extrema vulnerabilidade. A aplicação busca promover a inclusão social e fortalecer o senso de solidariedade dentro da comunidade.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Descrição
+ Uma plataforma web que integra uma landing page institucional com um sistema completo de gerenciamento de dados (CRUD). Desenvolvida com o objetivo de ampliar a divulgação e fortalecer a presença digital do projeto social, a aplicação facilita a conexão entre a iniciativa, apoiadores e marcas interessadas em contribuir, promovendo engajamento e reforçando sua atuação na comunidade.
 
-## React Compiler
+## Objetivos
+**1 .** Apresentar a causa de forma clara e impactante<br>
+**2 .** Conquistar apoiadores e doadores<br>
+**3 .** Atrair voluntários<br>
+**4 .** Aumentar a visibilidade da ONG<br>
+**5 .** Fortalecer a credibilidade e confiança<br>
+**6 .** Centralizar a comunicação<br>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Funcionalidades
+- Página inicial com apresentação institucional e canais de contato acessíveis
+- Layout adaptável que se ajusta automaticamente a celulares, tablets e computadores
+- Navegação simples e eficiente, priorizando a usabilidade e a facilidade de acesso às informações
+- Integração com redes sociais, permitindo conexão direta com os perfis oficiais do projeto
+- Seção de transparência e prestação de contas
+- Design responsivo
+- Integração com o Google Maps, permitindo que o usuário visualize e acesse rapidamente os pontos de entrega do projeto.
 
-## Expanding the ESLint configuration
+### Tecnologias Utilizadas
+**HTML5** –  Estruturação semântica do conteúdo da aplicação<br>
+**CSS3** – Estilização visual e adaptação responsiva para diferentes dispositivos.<br>
+**JavaScript (ES6+)** – Implementação de funcionalidades dinâmicas e interatividade com o usuário.<br>
+**React** – Construção da interface com componentes reutilizáveis e navegação entre páginas por rotas.<br>
+**Git e GitHub** – Controle de versões e colaboração em equipe por meio de repositório remoto.<br>
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Sobre o Desenvolvimento
+Guiado pelo método Design Centrado no Usuário, com foco em apresentar aos visitantes quem está por trás do projeto, incentivando doações, voluntariado e a divulgação da iniciativa. A plataforma também inclui uma seção de prestação de contas para garantir transparência e confiança.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Etapas:
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+#### - Primeiro contato e alinhamento inicial
+#### - Elaboração do protótipo inicial no figma
+#### - Coleta de feedback e identificação de melhorias
+#### - Implementação das melhorias sugeridas
+#### - Validação final do protótipo
+#### - Desenvolvimento incremental em HTML, CSS, JavaScript e React.
+#### - Testes de usabilidade, ajustes de responsividade e deploy final.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Requisitos da Aplicação
+| Requisito                        | Descrição                                                                                  | Prioridade    |
+|----------------------------------|--------------------------------------------------------------------------------------------|---------------|
+| Sistema de gerenciamento (CRUD)  | Permite controle completo de dados: criação, edição, visualização e exclusão.              | Essencial     |
+| Layout responsivo                | Adapta-se automaticamente a diferentes dispositivos, como celulares, tablets e desktops.   | Essencial     |
+| Acessibilidade                   | Segue práticas inclusivas para garantir acesso a usuários com diferentes necessidades.     | Essencial     |
+| Usabilidade                      | Oferece navegação clara e intuitiva, focada na experiência do usuário.                     | Essencial     |
+| Segurança e conformidade (LGPD) | Protege dados sensíveis e pessoais conforme as diretrizes da Lei Geral de Proteção de Dados.| Essencial     |
+| Desempenho                       | Garante fluidez e bom tempo de resposta durante a navegação e uso do sistema.              | Essencial     |
+| Integração futura                | Estrutura preparada para suportar conexões com APIs e funcionalidades adicionais.          | Recomendável  |
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Estruturas de Pastas
+```plaintext
+DesafioFinal/
+├── public/
+│   ├── index.html
+│   └── assets/
+├── src/
+│   ├── components/
+│   ├── components/
+│   ├── App.tsx
+│   └── index.css
+│   └── main.tsx
+├── package.json
+└── README.md
+````
+## Equipe Bugs Hunters
+#### Adriano Cardoso Santos
+#### Júlio César Chaves Araújo
+#### Marcio Rogerio Reis Feire Junior
