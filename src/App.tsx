@@ -1,16 +1,12 @@
-import { useState } from 'react'
-import Teste from './component/teste.tsx'
-
-
-
+import './App.css'
+import Entrega from './component/pontosEntrega.tsx'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <div>
-        <Teste/>
+        <Entrega />
       </div>
     </>
   )
