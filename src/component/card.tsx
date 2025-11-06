@@ -10,7 +10,7 @@ type CardProps = {
 export default function Card({ imagemLocal, nome, localizacao, link}: CardProps) {
   return (
     <div className="card">
-      <img src={imagemLocal} alt="" />
+      <img className="imagemLocal" src={imagemLocal} alt="" />
       <h2>{nome}</h2>
       <p>{localizacao}</p>
       <Botao texto="Ver no Mapa" icone={IconeDeMapa} link={link}/>
