@@ -1,5 +1,6 @@
 // import { useState } from 'react'
-import Teste from './components/teste.tsx'
+// import { SecaoInicio } from './pages/home/secao-inicio/secao-inicio.tsx'
+import { Header } from './components/Header/header.tsx'
 
 
 
@@ -9,7 +10,7 @@ function App() {
   return (
     <>
       <div>
-        <Teste/>
+        <Header/>
       </div>
     </>
   )
