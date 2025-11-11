@@ -1,10 +1,11 @@
-// import { useState } from 'react'
-import Teste from './components/teste.tsx'
+import { useState } from 'react'
+import Teste from './component/teste.tsx'
+
 
 
 
 function App() {
-  // const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0)
 
   return (
     <>
