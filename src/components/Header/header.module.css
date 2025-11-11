@@ -11,6 +11,7 @@
     align-items: center;
     background: #E63946;
     height: 130px;
+    /* flex-direction: column; */
 
 }
 
@@ -80,3 +81,15 @@ ul{
     justify-content: center;
     align-items: center;
 }
+ .imgfundo{
+  background-image: url(../../assets/imageFundo.png); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 99.2vw;
+ }
+.logoPrincipal{
+    height: 70;
+    width: 500px;
+    margin-left: 300px;
+ }

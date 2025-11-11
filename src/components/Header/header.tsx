@@ -17,10 +17,12 @@ export function Header() {
                     </ul>
                     <button className={styles.botao}> <a href="Aniversariantes">Aniversariantes</a></button>
                 </div>
-
-                {/* <img src="src/assets/imageFundo.png" alt="img-fundo" /> */}
-
+                
             </nav>
+            <div className={styles.imgfundo}>
+                <img className={styles.logoPrincipal} src="src/assets/logo.sopa.png" alt="" />
+            </div>
+
         </header>
     )
 }
