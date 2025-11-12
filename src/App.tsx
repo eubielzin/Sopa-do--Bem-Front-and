@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Teste from './component/teste.tsx'
-
+import Galeria from "./component/galeria.tsx"
+import "./App.css"
 
 
 
@@ -10,7 +11,8 @@ function App() {
   return (
     <>
       <div>
-        <Teste/>
+        {/* <Teste/> */}
+        <Galeria/>
       </div>
     </>
   )
