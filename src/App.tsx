@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Teste from './component/teste.tsx'
+import Donate from './component/donate.tsx'
 
 
 
@@ -10,7 +11,7 @@ function App() {
   return (
     <>
       <div>
-        <Teste/>
+        <Donate/>
       </div>
     </>
   )
