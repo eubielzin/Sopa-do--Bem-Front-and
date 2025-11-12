@@ -1,0 +1,49 @@
+.rodape {
+    background: #e3434a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    height: 300px;
+    width: 150px;
+}
+
+h3 {
+    color: white;
+    margin-top: 120px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    background: #e3434a;
+
+}
+
+.linha {
+    width: 100%;
+    border: 1px solid #fff;
+}
+
+.fim {
+    display: flex;
+}
+
+.logos {
+    height: 100px;
+    width: 100px;
+    margin: 50px 50px;
+}
+
+h4 {
+    margin-top: 100px;
+    margin-left: 200px;
+    color: white
+}
+
+.voltarTopo {
+    color: white;
+    text-decoration: none;
+    margin-top: 100px;
+    margin-left: 150px;
+}
