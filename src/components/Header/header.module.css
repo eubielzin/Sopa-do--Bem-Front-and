@@ -57,6 +57,9 @@ header {
 .botao a {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight:bold;
 }
 .botao{
     height: 50px;
