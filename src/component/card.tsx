@@ -7,13 +7,15 @@ type CardProps = {
   link?: string
 }
 
-export default function Card({ imagemLocal, nome, localizacao, link}: CardProps) {
+export default function Card({ imagemLocal, nome, localizacao, link }: CardProps) {
   return (
     <div className="card">
-      <img className="imagemLocal" src={imagemLocal} alt="" />
+      <div className="cabecalho-card">
+        <img className="imagemLocal" src={imagemLocal} alt="" />
+      </div>
       <h2>{nome}</h2>
       <p>{localizacao}</p>
-      <Botao texto="Ver no Mapa" icone={IconeDeMapa} link={link}/>
+      <Botao texto="Ver no Mapa" icone={IconeDeMapa} link={link} />
     </div>
   )
 }
