@@ -1,3 +1,4 @@
+import { Prestacao } from "./component/prestacao"
 import { useState } from 'react'
 import Teste from './component/teste.tsx'
 import Introducao from './component/introducao.tsx'
@@ -23,6 +24,8 @@ function App() {
   return (
     <>
       <div>
+        <Prestacao/>
+       
         {/* <Teste/> */}
         <Introducao/>
         {/* <Teste/> */}
