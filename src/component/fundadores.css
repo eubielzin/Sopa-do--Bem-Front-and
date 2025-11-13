@@ -1,0 +1,58 @@
+* {
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+.secaoFundadores h1 {
+    color: #1D3557;
+}
+.swiper-slide {
+  display: flex!important;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;     /* Centraliza verticalmente */
+}
+.card {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    /* Centraliza horizontalmente */
+    width: 40%;
+
+    padding-bottom: 2.5%;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.card .cabecalho-card {   
+    border-radius: 10px; 
+    padding-bottom: 2%;
+
+    padding-top: 2.5%;
+    background-color: #E63946;
+    width: 100%;
+}
+
+.card .imagemLocal {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+.card p {
+    width: 80%;
+    color: #333333;
+}
+.card button {
+    cursor: pointer;
+    background-color: #E63946;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    text-align: center;
+}
+.card button img {
+    display: none;
+}
