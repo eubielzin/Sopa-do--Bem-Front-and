@@ -1,0 +1,115 @@
+.carrossel {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  max-width: 1200px;
+  object-fit: cover;
+  /* mantém proporção e preenche */
+  border-radius: 10px;
+
+}
+
+.carrossel h1 {
+  color: #1D3557;
+}
+
+@media screen and (max-width: 1264px) {
+  .carrossel {
+    width: 1000px !important;
+  }
+}
+
+@media screen and (max-width: 1065px) {
+  .carrossel {
+    width: 800px !important;
+  }
+
+  .carrossel h1 {
+    font-size: 2.4em;
+  }
+}
+
+@media screen and (max-width: 866px) {
+  .carrossel {
+    width: 600px !important;
+  }
+
+  .swiper-button-prev {
+    left: 100px !important;
+    display: none !important;
+  }
+
+  .swiper-button-next {
+    right: 100px !important;
+    display: none !important;
+  }
+
+  .carrossel:hover .swiper-button-next,
+  .carrossel:hover .swiper-button-prev {
+    display: block !important;
+  }
+}
+
+.carrossel img {
+  max-width: 100%;
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+}
+
+.videoContainer {
+  position: relative;
+  width: 70%;
+  /* largura desejada em % */
+  padding-top: 56.25%;
+  /* mantém 16:9 */
+  margin: 0 auto;
+  /* centraliza horizontalmente */
+}
+
+.videoContainer iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* ocupa 100% do container */
+  height: 90%;
+  /* mantém a proporção via container */
+}
+
+.swiper-button-next svg,
+.swiper-button-prev svg,
+.swiper-button-next .swiper-button-icon,
+.swiper-button-prev .swiper-button-icon,
+.swiper-button-next i,
+.swiper-button-prev i {
+  display: none !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+.swipperContainer {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background-position: center;
+  background-repeat: no-repeat;
+  --swiper-navigation-size: 60px;
+  background-size: 110%;
+  width: 40px;
+  height: 60px;
+}
+
+.swiper-button-prev {
+  background-image: url('../assets/Back-to.svg');
+
+}
+
+.swiper-button-next {
+  background-image: url('../assets/Next-page.svg');
+}
