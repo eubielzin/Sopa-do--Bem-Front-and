@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Teste from './component/teste.tsx'
+import Introducao from './component/introducao.tsx'
 
 
 
@@ -10,7 +11,8 @@ function App() {
   return (
     <>
       <div>
-        <Teste/>
+        {/* <Teste/> */}
+        <Introducao/>
       </div>
     </>
   )
