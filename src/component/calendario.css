@@ -1,0 +1,21 @@
+.corpo{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eefbe8;
+    padding: 40px 20px;
+    text-align: center;
+}
+.texto{
+    color: rgb(6, 6, 155);
+}
+.imagens {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 18px;
+}
