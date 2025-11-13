@@ -1,5 +1,8 @@
 import { useState } from 'react'
 import Teste from './component/teste.tsx'
+import Footer from './component/footer.tsx'
+
+
 import Donate from './component/donate.tsx'
 import Calendario from './component/calendario.tsx'
 import Fundadores from './component/fundadores.tsx'
@@ -16,6 +19,8 @@ function App() {
   return (
     <>
       <div>
+        {/* <Teste/> */}
+        <Footer/>
         <Donate/>
         <Calendario/>
         {/* <Teste/> */}
