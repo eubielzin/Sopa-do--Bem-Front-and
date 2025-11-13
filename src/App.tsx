@@ -1,16 +1,12 @@
-import { useState } from 'react'
-import Teste from './component/teste.tsx'
-
-
-
+import { Prestacao } from "./component/prestacao"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <div>
-        <Teste/>
+        <Prestacao/>
+       
       </div>
     </>
   )
