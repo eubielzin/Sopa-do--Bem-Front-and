@@ -1,3 +1,8 @@
+// import { useState } from 'react'
+// import { SecaoInicio } from './pages/home/secao-inicio/secao-inicio.tsx'
+import { Header } from './components/Header/header.tsx'
+
+
 import { Prestacao } from "./component/prestacao"
 import { useState } from 'react'
 import Teste from './component/teste.tsx'
@@ -24,6 +29,7 @@ function App() {
   return (
     <>
       <div>
+        <Header/>
         <Prestacao/>
        
         {/* <Teste/> */}
