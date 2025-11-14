@@ -4,7 +4,11 @@
 
 .secaoFundadores h1 {
     color: #1D3557;
+    
 }
+
+
+
 .swiper-slide {
   display: flex!important;
   justify-content: center; /* Centraliza horizontalmente */
@@ -17,6 +21,7 @@
     flex-direction: column;
     justify-content: center;
     margin-bottom: 20px;
+    margin-top: 30px;
     /* Centraliza horizontalmente */
     width: 40%;
 
@@ -55,4 +60,5 @@
 }
 .card button img {
     display: none;
+    
 }

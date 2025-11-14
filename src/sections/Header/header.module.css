@@ -74,17 +74,15 @@
     background-repeat: no-repeat;
     height: 90vh;
     width: 100%;
-    overflow: hidden;
     display: flex;
-    justify-content: center;
     align-items: center;
+    
 }
 
 
 .logoPrincipal {
-    height: 70px;
+    height: 50%;
     width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10%;
+    
 }

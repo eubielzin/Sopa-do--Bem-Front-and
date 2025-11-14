@@ -28,7 +28,7 @@ export function Donate() {
                     <p className={styles.texto}>
                         Suas generosas doações nos ajudam a fornecer refeições e apoio aos necessitados.
                     </p>
-                    <button className={styles.botao}>Clique aqui</button>
+                    <button className={styles.botao2}>Clique aqui</button>
                 </div>
 
                 <div className={styles.card}>
@@ -37,7 +37,7 @@ export function Donate() {
                     <p className={styles.texto}>
                         Ajude-nos a alcançar mais pessoas compartilhando nossa missão com sua rede.
                     </p>
-                    <button className={styles.botao}>Clique aqui</button>
+                    <button className={styles.botao2}>Clique aqui</button>
                 </div>
 
             </section>
