@@ -1,11 +1,11 @@
-import calendarioSopadoBem from '../assets/calendarioSopadoBem.jpg'
-import './calendario.css'
+import calendarioSopadoBem from '../../assets/calendarioSopadoBem.jpg'
+import styles from './calendario.module.css'
 
-export default function Calendario() {
+export function Calendario() {
     return (
-        <section className="corpo">
-            <h1 className="texto"> Confira o Calendario deste mês</h1>
-            <section className="imagens">
+        <section className={styles.corpo}>
+            <h1 className={styles.texto}> Confira o Calendario deste mês</h1>
+            <section className={styles.imagens}>
                 <img src={calendarioSopadoBem} alt="calendariodessemes"/>
                 <img src={calendarioSopadoBem} alt="calendariodessemes"/>
                 <img src={calendarioSopadoBem} alt="calendariodessemes"/>

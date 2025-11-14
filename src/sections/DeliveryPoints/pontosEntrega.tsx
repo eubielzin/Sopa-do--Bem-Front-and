@@ -1,14 +1,14 @@
 //Estrutura dos cards
-import Card from "../component/card"
+import Card from "../../component/card"
 //Estilização deste arquivo
-import './pontosEntrega.css'
+import "./pontosEntrega.css"
 //Importações da imagens
-import PracaDeodoro from "../assets/localdeodoro.png"
-import MercadoCentral from "../assets/localmercado-central.png"
-import SocorraoI from "../assets/localsocorraoI.png"
-import HospitalGeral from "../assets/localhospital-geral.png"
-import SantaCasa from "../assets/localsanta-casa.png"
-export default function Entrega() {
+import PracaDeodoro from "../../assets/localdeodoro.png"
+import MercadoCentral from "../../assets/localmercado-central.png"
+import SocorraoI from "../../assets/localsocorraoI.png"
+import HospitalGeral from "../../assets/localhospital-geral.png"
+import SantaCasa from "../../assets/localsanta-casa.png"
+export function Entrega() {
     return (
         <div className="secaoEntrega">
             <h1>Nosso Pontos De Entrega</h1>

@@ -3,12 +3,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-img {
+.cabecalho img {
     height: 300px;
     width: 150px;
 }
 
-h3 {
+.cabecalho h3 {
     color: white;
     margin-top: 120px;
 }
@@ -35,7 +35,7 @@ h3 {
     margin: 50px 50px;
 }
 
-h4 {
+.fim h4 {
     margin-top: 100px;
     margin-left: 200px;
     color: white

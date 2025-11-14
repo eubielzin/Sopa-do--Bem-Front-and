@@ -1,48 +1,28 @@
-// import { useState } from 'react'
-// import { SecaoInicio } from './pages/home/secao-inicio/secao-inicio.tsx'
-import { Header } from './components/Header/header.tsx'
-
-
-import { Prestacao } from "./component/prestacao"
-import { useState } from 'react'
-import Teste from './component/teste.tsx'
-import Introducao from './component/introducao.tsx'
-
-
-
-import Footer from './component/footer.tsx'
-
-
-import Donate from './component/donate.tsx'
-import Calendario from './component/calendario.tsx'
-import Fundadores from './component/fundadores.tsx'
 import './App.css'
-import Galeria from "./component/galeria.tsx"
-import "./App.css"
-
-
-import './App.css'
-import Entrega from './component/pontosEntrega.tsx'
+import { Header } from './sections/Header/header.tsx'
+import { Introducao } from './sections/ Introduction/introducao.tsx'
+import { Fundadores } from './sections/Founders/fundadores.tsx'
+import { Galeria } from "./sections/Gallery/galeria.tsx"
+import {Donate} from './sections/Donate/donate.tsx'
+import {Calendario} from './sections/Calendar/calendario.tsx'
+import {Entrega} from './sections/DeliveryPoints/pontosEntrega.tsx'
+import { Prestacao } from "./sections/FinancialReport/prestacao.tsx"
+import {Footer} from './sections/Footer/footer.tsx'
 
 function App() {
 
   return (
     <>
       <div>
-        <Header/>
-        <Prestacao/>
-       
-        {/* <Teste/> */}
-        <Introducao/>
-        {/* <Teste/> */}
-        <Footer/>
-        <Donate/>
-        <Calendario/>
-        {/* <Teste/> */}
-        <Fundadores/>
-        {/* <Teste/> */}
-        <Galeria/>
+        <Header />
+        <Introducao />
+        <Fundadores />
+        <Galeria />
+        <Donate />
+        <Calendario />
         <Entrega />
+        <Prestacao />
+        <Footer />
       </div>
     </>
   )
