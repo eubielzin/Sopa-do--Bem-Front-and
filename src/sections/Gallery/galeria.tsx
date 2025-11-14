@@ -9,7 +9,7 @@ export function Galeria() {
   const slides = [
     { tipo: "video", src: "https://www.youtube.com/embed/MHaEazb63CI?si=a8fXcam38IEtdHGF", descricao: "Vídeo 1" },
     { tipo: "video", src: "https://www.youtube.com/embed/hsZVlDQEwnI", descricao: "Vídeo 2" },
-    { tipo: "imagem", src: "https://rounder.pics/assets/img/ui/square-image.webp", descricao: "Imagem 1" },
+    // { tipo: "imagem", src: "https://rounder.pics/assets/img/ui/square-image.webp", descricao: "Imagem 1" },
   ];
 
   return (
