@@ -16,7 +16,7 @@ export function Fundadores() {
     ];
 
     return (
-        <div className="secaoFundadore">
+        <div id="Fundadores" className="secaoFundadore">
             <h1>A alma da ONG</h1>
             <Swiper
                 // install Swiper modules

@@ -9,12 +9,13 @@ export function Footer() {
       <footer className={style.rodape}>
         <div className={style.cabecalho}>
             <img src={logoSopadoBem} alt="logoSopadoBem"/>
-            <h3>Nossos Membros</h3>
-            <h3>Entregas</h3>
-            <h3>Ajude-nos</h3>
-            <h3>Pontos de Entrega</h3>
-            <h3>Parcerias</h3>
-            <h3>Fale Conosco</h3>
+            <a href="#"><h3>Introdução</h3></a>
+            <a href="#Fundadores"><h3>Fundadores</h3></a>
+            <a href="#Galeria"><h3>Galeria</h3></a>
+            <a href="#Donate"><h3>Doações</h3></a>
+            <a href="#Calendario"><h3>Calendario</h3></a>
+            <a href="#Entrega"><h3>Pontos de Entrega</h3></a>
+            <a href="#Parcerias"><h3>Parcerias</h3></a>
         </div>
         <div className={style.linha}></div>
         <div className={style.fim}>
@@ -22,7 +23,7 @@ export function Footer() {
             <img className={style.logos} src={logoInsta} alt="logo instagram"/>
             <img className={style.logos} src={logoWpp} alt="logo whatsapp"/>
             <h4>Todos os direitos reservados © 2025 | POLÍTICA DE PRIVACIDADE</h4>
-            <a href="#" className={style.voltarTopo}>voltar ao topo</a>
+            <a href="#" className={style.voltarTopo}><h3>VOLTAR AO TOPO ↑</h3></a>
         </div>
     </footer>
 );

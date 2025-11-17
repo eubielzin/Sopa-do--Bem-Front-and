@@ -13,7 +13,7 @@ export function Galeria() {
   ];
 
   return (
-    <div className="carrossel">
+    <div id="Galeria" className="carrossel">
       <h1>Nós fazemos a diferença</h1>
       <Swiper
         className="swipperContainer"

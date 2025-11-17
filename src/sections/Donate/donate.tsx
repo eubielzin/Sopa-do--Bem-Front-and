@@ -5,7 +5,7 @@ import Volunteering from '../../assets/Volunteering.svg'
 
 export function Donate() {
     return (
-        <div className={styles.corpo}>
+        <div id="Donate" className={styles.corpo}>
             <section className={styles.cabecalho}>
                 <h1>Ajude-nos</h1>
                 <h3>Junte-se à nossa missão. Seja voluntário, doe, defenda, comece hoje.</h3>
