@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 60px; /* espaço entre blocos titulo1 e titulo2 */
@@ -8,6 +8,7 @@
 }
 .titulo1,
 .titulo2 {
+    color: #1D3557;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -15,6 +16,7 @@
     gap: 40px; /* espaçamento entre texto e imagem */
     flex-wrap: wrap; /* para ficar responsivo em telas pequenas */
 }
+
 .titulo1 div,
 .t2 {
     max-width: 600px; /* limita largura do texto */
