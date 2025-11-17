@@ -4,14 +4,15 @@ type CardProps = {
   imagemLocal: string
   nome: string
   localizacao: string
+  estiloCard: any
   link?: string
 }
 
-export default function Card({ imagemLocal, nome, localizacao, link }: CardProps) {
+export default function Card({estiloCard, imagemLocal, nome, localizacao, link }: CardProps) {
   return (
-    <div className="card">
-      <div className="cabecalho-card">
-        <img className="imagemLocal" src={imagemLocal} alt="" />
+    <div className={estiloCard?.card || ""}>
+      <div className={estiloCard?.cabecalhoCard || ""}>
+        <img className={estiloCard?.imagemLocal || ""} src={imagemLocal} alt="" />
       </div>
       <h2>{nome}</h2>
       <p>{localizacao}</p>

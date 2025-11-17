@@ -17,7 +17,7 @@ function App() {
         <Header />
         <Introducao />
         <Fundadores />
-        <Galeria />
+        {/* <Galeria /> */}
         <Donate />
         <Calendario />
         <Entrega />
