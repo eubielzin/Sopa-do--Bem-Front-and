@@ -29,6 +29,8 @@ a{
 
 .fim {
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .logos {
@@ -36,16 +38,16 @@ a{
     width: 50px;
     margin: 50px 50px;
 }
-
+.logos:nth-child(1){
+    height: 40px;
+    width: 40px;
+    margin-top: 54px;
+}
 .fim h4 {
-    margin-top: 70px;
-    margin-left: 300px;
     color: white
 }
 
 .voltarTopo {
     color: white;
     text-decoration: none;
-    margin-top: 40px;
-    margin-left: 150px;
 }

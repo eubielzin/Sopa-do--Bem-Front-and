@@ -1,5 +1,5 @@
 import style from './footer.module.css'
-import logoFace from '../../assets/facebook.png'
+import logoFace from '../../assets/logoFacebk.png'
 import logoInsta from '../../assets/instagram.png'
 import logoWpp from '../../assets/whatsapp.png'
 import logoSopadoBem from '../../assets/logoSopadoBem.png'
@@ -18,11 +18,15 @@ export function Footer() {
         </div>
         <div className={style.linha}></div>
         <div className={style.fim}>
-            <img className={style.logos} src={logoFace} alt="logo facebook"/>
-            <img className={style.logos} src={logoInsta} alt="logo instagram"/>
-            <img className={style.logos} src={logoWpp} alt="logo whatsapp"/>
-            <h4>Todos os direitos reservados © 2025 | POLÍTICA DE PRIVACIDADE</h4>
-            <a href="#" className={style.voltarTopo}><h3>VOLTAR AO TOPO ↑</h3></a>
+            <div>
+                <img className={style.logos} src={logoFace} alt="logo facebook"/>
+                <img className={style.logos} src={logoInsta} alt="logo instagram"/>
+                <img className={style.logos} src={logoWpp} alt="logo whatsapp"/>
+            </div>
+            <div>
+                <h4>Todos os direitos reservados © 2025 | POLÍTICA DE PRIVACIDADE</h4>
+                <a href="#" className={style.voltarTopo}><h4>VOLTAR AO TOPO ↑</h4></a>
+            </div>    
         </div>
     </footer>
 );
