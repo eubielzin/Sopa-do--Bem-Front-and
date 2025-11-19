@@ -15,7 +15,6 @@ export function Footer() {
             <a href="#Donate"><h3>Doações</h3></a>
             <a href="#Calendario"><h3>Calendario</h3></a>
             <a href="#Entrega"><h3>Pontos de Entrega</h3></a>
-            <a href="#Parcerias"><h3>Parcerias</h3></a>
         </div>
         <div className={style.linha}></div>
         <div className={style.fim}>

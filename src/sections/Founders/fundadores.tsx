@@ -16,7 +16,7 @@ export function Fundadores() {
     ];
 
     return (
-        <div className={styles.secaoFundadores}>
+        <div id="Fundadores" className={styles.secaoFundadores}>
             <h1>A alma da ONG</h1>
             <div className={styles.containerCarrossel}>
             <Swiper

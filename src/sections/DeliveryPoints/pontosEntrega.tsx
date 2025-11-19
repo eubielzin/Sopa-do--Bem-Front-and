@@ -11,7 +11,7 @@ import HospitalGeral from "../../assets/localhospital-geral.png"
 import SantaCasa from "../../assets/localsanta-casa.png"
 export function Entrega() {
     return (
-        <div className={styles.secaoEntrega}>
+        <div id="Entrega" className={styles.secaoEntrega}>
             <h1>Nossos Pontos De Entrega</h1>
             <div className={styles.Cards}>
             <Card estiloCard={styles} imagemLocal={PracaDeodoro} nome="Praça deodoro" localizacao="Avenida Gomes de Castro, Centro" link="https://surl.li/tjoswc" />
