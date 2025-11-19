@@ -1,37 +1,38 @@
 * {
     font-family: 'Instrument Sans', sans-serif;
 }
-
+.secaoFundadores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .secaoFundadores h1 {
     color: #1D3557;
-    
+
+}
+.containerCarrossel {
+    width: 40%;
 }
 
-
-
-.swiper-slide {
-  display: flex!important;
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center;     /* Centraliza verticalmente */
-}
 .card {
     display: flex;
     background-color: white;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
-    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    gap: 30px;
+    margin-bottom: 50px;
     margin-top: 30px;
     /* Centraliza horizontalmente */
-    width: 40%;
-
     padding-bottom: 2.5%;
     border-radius: 10px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
 }
 
-.card .cabecalho-card {   
-    border-radius: 10px; 
+.card .cabecalhoCard {
+    border-radius: 10px;
     padding-bottom: 2%;
 
     padding-top: 2.5%;
@@ -45,10 +46,12 @@
     height: auto;
     border-radius: 50%;
 }
+
 .card p {
     width: 80%;
     color: #333333;
 }
+
 .card button {
     cursor: pointer;
     background-color: #E63946;
@@ -58,7 +61,8 @@
     padding: 10px;
     text-align: center;
 }
+
 .card button img {
     display: none;
-    
+
 }

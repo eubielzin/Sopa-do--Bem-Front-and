@@ -1,6 +1,6 @@
 // import Swiper core and required modules
-import './fundadores.css'
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import styles from './fundadores.module.css'
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper "
 import 'swiper/css';
@@ -10,17 +10,18 @@ import Card from "../../component/card"
 import testeImagem from "../../assets/usuario.jpg"
 export function Fundadores() {
     const slides = [
-        <Card imagemLocal={testeImagem} nome="Godrick Grifindor" localizacao="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, " />,
-        <Card imagemLocal={testeImagem} nome="Joana Dark" localizacao="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, " />,
-        <Card imagemLocal={testeImagem} nome="Santa Teresa" localizacao="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, " />
+        <Card estiloCard={styles} imagemLocal={testeImagem} nome="Godrick Grifindor" localizacao="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, " />,
+        <Card estiloCard={styles} imagemLocal={testeImagem} nome="Joana Dark" localizacao="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, " />,
+        <Card estiloCard={styles} imagemLocal={testeImagem} nome="Santa Teresa" localizacao="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, " />
     ];
 
     return (
-        <div className="secaoFundadore">
+        <div className={styles.secaoFundadores}>
             <h1>A alma da ONG</h1>
+            <div className={styles.containerCarrossel}>
             <Swiper
                 // install Swiper modules
-                modules={[Navigation, Pagination, Scrollbar, A11y]}
+                modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                 spaceBetween={50}
                 slidesPerView={1}
                 navigation
@@ -34,7 +35,7 @@ export function Fundadores() {
                         {item}
                     </SwiperSlide>
                 ))}
-                ...
             </Swiper></div>
-    );
-};
+        </div>
+    )
+}

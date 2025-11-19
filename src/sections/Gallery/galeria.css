@@ -81,7 +81,7 @@
   /* mantém a proporção via container */
 }
 
-.swiper-button-next svg,
+/* .swiper-button-next svg,
 .swiper-button-prev svg,
 .swiper-button-next .swiper-button-icon,
 .swiper-button-prev .swiper-button-icon,
@@ -107,13 +107,13 @@
   background-size: 110%;
   width: 40px;
   height: 60px;
+}  */
+
+.swiper-button-prev p {
+  background-image: url('../../assets/Back-to.svg');
+
 }
 
-.swiper-button-prev {
-  background-image: url('../assets/Back-to.svg');
-
-}
-
-.swiper-button-next {
-  background-image: url('../assets/Next-page.svg');
+.swiper-button-next p {
+  background-image: url('../../assets/Next-page.svg');
 }
