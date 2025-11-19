@@ -1,6 +1,6 @@
 import './App.css'
 import { Header } from './sections/Header/header.tsx'
-import { Introducao } from './sections/ Introduction/introducao.tsx'
+import { Introducao } from './sections/Introduction/introducao.tsx'
 import { Fundadores } from './sections/Founders/fundadores.tsx'
 import { Galeria } from "./sections/Gallery/galeria.tsx"
 import {Donate} from './sections/Donate/donate.tsx'
