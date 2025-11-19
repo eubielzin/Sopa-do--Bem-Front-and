@@ -7,7 +7,7 @@ export function Donate() {
     return (
         <div className={styles.corpo}>
             <section className={styles.cabecalho}>
-                <h1>Ajude-nos</h1>
+                <h2>Ajude-nos</h2>
                 <h3>Junte-se à nossa missão. Seja voluntário, doe, defenda, comece hoje.</h3>
             </section>
 
