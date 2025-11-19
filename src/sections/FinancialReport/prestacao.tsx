@@ -1,7 +1,7 @@
 import styles from './prestacao.module.css'
 export function Prestacao() {
     return (
-        <div className={styles.container}>
+        <div id="Parcerias" className={styles.container}>
             <div className={styles.prestacao}>
                 <h1 className={styles.titulo}> Prestação de Contas</h1>
                 <p>Transparência é essencial para nós. Veja como aplicamos as doações recebidas: </p>
