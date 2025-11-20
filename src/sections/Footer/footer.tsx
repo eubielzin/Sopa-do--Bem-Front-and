@@ -1,4 +1,4 @@
-import style from './footer.module.css'
+ import style from './footer.module.css'
 import logoFace from '../../assets/logoFacebk.png'
 import logoInsta from '../../assets/instagram.png'
 import logoWpp from '../../assets/whatsapp.png'
