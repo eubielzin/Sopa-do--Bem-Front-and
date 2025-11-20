@@ -14,11 +14,11 @@ export function Entrega() {
         <div id="Entrega" className={styles.secaoEntrega}>
             <h1>Nossos Pontos De Entrega</h1>
             <div className={styles.Cards}>
-            <Card estiloCard={styles} imagemLocal={PracaDeodoro} nome="Praça deodoro" localizacao="Avenida Gomes de Castro, Centro" link="https://surl.li/tjoswc" />
-            <Card estiloCard={styles} imagemLocal={MercadoCentral} nome="Mercado Central" localizacao="Av. Guaxenduba, Centro" link="https://surl.lt/xmlrcb"/>
-            <Card estiloCard={styles} imagemLocal={SocorraoI} nome="Socorrão I" localizacao="Rua do Passeio, S/N, Centro" link="https://surl.li/xwwucd"/>
-            <Card estiloCard={styles} imagemLocal={HospitalGeral} nome="Hospital Geral" localizacao="R. São Pantaleão, 02 , Centro" link="https://surl.li/qmhkro"/>
-            <Card estiloCard={styles} imagemLocal={SantaCasa} nome="Santa Casa" localizacao="R. do Norte, 233, Centro" link="https://surl.li/brltvu"/>
+                <Card estiloCard={styles} imagemLocal={PracaDeodoro} nome="Praça deodoro" textoCard="Avenida Gomes de Castro, Centro" textoBotao="ver no Mapa" link="https://surl.li/tjoswc" />
+                <Card estiloCard={styles} imagemLocal={MercadoCentral} nome="Mercado Central" textoCard="Av. Guaxenduba, Centro" textoBotao="ver no Mapa" link="https://surl.lt/xmlrcb" />
+                <Card estiloCard={styles} imagemLocal={SocorraoI} nome="Socorrão I" textoCard="Rua do Passeio, S/N, Centro" textoBotao="ver no Mapa" link="https://surl.li/xwwucd" />
+                <Card estiloCard={styles} imagemLocal={HospitalGeral} nome="Hospital Geral" textoCard="R. São Pantaleão, 02 , Centro" textoBotao="ver no Mapa" link="https://surl.li/qmhkro" />
+                <Card estiloCard={styles} imagemLocal={SantaCasa} nome="Santa Casa" textoCard="R. do Norte, 233, Centro" textoBotao="ver no Mapa" link="https://surl.li/brltvu" />
             </div>
         </div>
     )
