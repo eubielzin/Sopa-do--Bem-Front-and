@@ -3,3 +3,11 @@
   margin: 0 auto;
   text-align: center;
 }
+
+.containerPrincipal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+}
