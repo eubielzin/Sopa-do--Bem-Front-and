@@ -61,3 +61,52 @@
     color: white;
     background-color: #E63946;
 }
+
+/* ===========================
+   CELULAR ATÉ 576px
+   =========================== */
+@media (max-width: 576px) {
+    .Cards {
+        flex-direction: column;
+        /* Coloca um card por linha */
+        align-items: center;
+        /* Centraliza tudo */
+        gap: 20px;
+        /* Espaço entre os cards */
+        margin-top: 20px;
+    }
+
+    .card {
+        max-width: 90%;
+        /* Card ocupa quase toda a tela */
+        gap: 20px;
+        padding: 20px;
+    }
+
+    /* imagem dentro do card */
+    .Cards .imagemLocal {
+        width: 100%;
+        /* ocupa a largura do card */
+        height: 180px;
+        /* altura reduzida */
+        object-fit: cover;
+    }
+
+    .card h2 {
+        font-size: 1.2rem;
+        /* título menor */
+        text-align: center;
+    }
+
+    .card p {
+        font-size: 0.9rem;
+        /* texto menor e confortável */
+        text-align: center;
+    }
+
+    .card button {
+        padding: 8px 12px;
+        /* botão maior no mobile */
+        font-size: 0.9rem;
+    }
+}
