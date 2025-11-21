@@ -7,7 +7,7 @@
     height: 100vh;
 }
 .texto{
-    color: rgb(6, 6, 155);
+    color: #1D3557;
 }
 .imagens {
     display: flex;
@@ -20,4 +20,10 @@
     width: 300px;
     height: 300px;
     border-radius: 18px;
+}
+@media (max-width: 468px) {
+    .imagens img{
+        width: 150px;
+        height: 150px;
+    }
 }
