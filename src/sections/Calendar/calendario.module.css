@@ -21,3 +21,9 @@
     height: 300px;
     border-radius: 18px;
 }
+@media (max-width: 468px) {
+    .imagens img{
+        width: 150px;
+        height: 150px;
+    }
+}
